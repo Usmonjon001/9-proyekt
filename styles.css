@@ -1,0 +1,225 @@
+body{
+	background-color: #F2CE97;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6, p, a, ul{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.leftColumn{
+	width: 40%;
+	box-sizing: border-box;
+	background-color: #484956;
+	padding: 50px 30px;
+}
+
+.leftColumnText{
+}
+
+.leftColumnText h1{
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.leftColumnText p{
+	font-size: 26px;
+	font-weight: 300;
+	color: #fff;
+	padding-top: 10px;
+	position: relative;
+}
+
+.leftColumnText p:before{
+	content: "";
+	border: 1px solid #E37B62;
+	width: 15%;
+	position: absolute;
+	bottom: -10px;
+}
+
+.leftBox{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 100%;
+}
+
+.leftBox img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-shadow: 2px 18px 34px -3.9px black;
+}
+
+.leftBox h2{
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 30px;
+	color: #fff;
+}
+
+
+.RightColumn{
+	width: 60%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.RightColumnText{
+	padding: 60px 30px;
+}
+
+.RightColumnText p{
+	font-size: 21px;
+}
+
+.bold{
+	font-size: 34px;
+}
+
+.RightColumnText .fist_p {
+	margin-bottom: 30px
+}
+
+/*.RightColumnText p:first-child{
+	margin-top: 60px;
+}*/
+
+.fixed{
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 190px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    box-shadow: -1px -2px 5px -3px black; 
+    padding: 40px;
+}
+
+.fixed p{
+	/*padding: 40px;*/
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.icons a{
+	/*padding: 40px 20px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ABAAAA;
+}
+
+
+.span{
+	color: #ABAAAA;
+	margin: 0 20px 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
